@@ -22,7 +22,7 @@ import disk from 'assets/windowsIcons/334(48x48).png';
 import cd from 'assets/windowsIcons/111(48x48).png';
 import dropdown from 'assets/windowsIcons/dropdown.png';
 import pullup from 'assets/windowsIcons/pullup.png';
-import logo from 'assets/github-logo.png';
+import logo from 'assets/soundcloud.png';
 import mine from 'assets/minesweeper/mine-icon.png';
 import windows from 'assets/windowsIcons/windows.png';
 
@@ -339,7 +339,20 @@ function MyComputer({ onClose }) {
               </div>
               <div className="com__content__right__card__content">
                 <a
-                  href="https://github.com/ShizukuIchi"
+                  href="https://github.com/hoandhh"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="com__content__right__card__item--me"
+                >
+                  <img
+                    className="com__content__right__card__img"
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                    alt="github"
+                  />
+                  <div className="com__content__right__card__text">Github</div>
+                </a>
+                <a
+                  href="https://soundcloud.com/dinkongradio"
                   target="_blank"
                   rel="noreferrer"
                   className="com__content__right__card__item--me"
@@ -347,24 +360,9 @@ function MyComputer({ onClose }) {
                   <img
                     className="com__content__right__card__img"
                     src={logo}
-                    alt="control"
+                    alt="soundcloud"
                   />
-                  <div className="com__content__right__card__text">Github</div>
-                </a>
-                <a
-                  href="https://sh1zuku.csie.io"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="com__content__right__card__item--me"
-                >
-                  <img
-                    className="com__content__right__card__img"
-                    src="https://a.ppy.sh/2926513_1448497605.png"
-                    alt="control"
-                  />
-                  <div className="com__content__right__card__text">
-                    My Website
-                  </div>
+                  <div className="com__content__right__card__text">SoundCloud</div>
                 </a>
               </div>
             </div>
